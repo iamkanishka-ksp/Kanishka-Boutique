@@ -1,0 +1,139 @@
+.div{
+  display: flex;
+  flex-direction: row ;
+}
+#left-section{
+  position: relative;
+  margin-left: 5px;
+  padding: 0px;
+  display: inline-flex;
+  align-items: center;
+}
+#center-section{
+  position: relative;
+  margin-left: 5px;
+  padding: 0px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#right-section{
+  position: relative;
+  margin-left: 5px;
+  padding: 0px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#logo{
+  height: 80px;
+  filter: drop-shadow(5px 0 10px rgb(0, 0, 0));
+  display: flex;
+  padding: 6px;
+  position: relative;
+}
+#logo:hover{
+  height: 92px;
+  filter: drop-shadow(5px 0 12px rgb(0, 0, 0));
+  display: flex;
+  padding: 0px;
+  position: relative;
+}
+
+#logotemp{
+  height:100px;
+  padding: 3px;
+  display: flex;
+}
+
+.search-bar{
+  display: flex;
+  filter: drop-shadow(1.5px 0 4px rgb(0, 0, 0));
+  align-items: center;
+  position: relative;
+}
+
+.search-bar:hover{
+  display: flex;
+  filter: drop-shadow(2px 0 6px rgb(0, 0, 0));
+  align-items: center;
+  position: relative;
+}
+
+.sml{
+  height: 30px;
+  filter: drop-shadow(2px 0 4px rgb(0, 0, 0));
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  position: relative;
+}
+
+.sml:hover{
+  height: 34px;
+  filter: drop-shadow(2px 0 4px rgb(0, 0, 0));
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  position: relative;
+}
+
+.smedialogo{
+  height: 36px;
+  padding: 2px;
+  display: flex;
+  position: relative;
+}
+
+
+
+#jbsdiv{
+  align-self:  center ;
+}
+
+#jbspic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.salsa {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#descrip{
+  display: flexbox ;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+#tname {
+  font-size: 18px;
+  width: 85%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* align-content: center; */
+}
+
+#body{
+  padding: auto;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+  padding: 5px;
+  color: rgb(34, 30, 30);
+  text-align: center;
+  padding-top: 250px;
+  font-size: smaller;
+}
